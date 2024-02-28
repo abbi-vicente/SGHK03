@@ -1,0 +1,115 @@
+p {
+	width: 200px;
+	height: 200px;
+	background-color: lightblue;
+}
+
+.box-content {
+	height: 250px;
+	width: 250px;
+	background-color: cadetblue;
+	padding: 20px;
+	box-sizing: content-box;
+}
+
+.box-border-box {
+	height: 250px;
+	width: 250px;
+	background-color: cadetblue;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/* display properties */
+.block {
+	display: block;
+	background-color: lightcoral;
+	margin-bottom: 5px;
+}
+
+.inline {
+	display: inline;
+	background-color: burlywood;
+	padding: 5px;
+}
+
+.inline-block {
+	display: inline-block;
+	background-color: blueviolet;
+	padding: 5px;
+	margin: 5px;
+}
+
+.static {
+	position: static;
+	width: 200px;
+	height: 50px;
+	background-color: lightgreen;
+}
+
+.relative {
+	position: relative;
+	width: 200px;
+	height: 50px;
+	background-color: lightpink;
+}
+
+.absolute {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: lightcoral;
+	top: 100px;
+	left: 200px;
+}
+
+.fixed {
+	position: fixed;
+	width: 200px;
+	height: 50px;
+	background-color: lightslategray;
+	top: 20px;
+}
+
+.sticky {
+	position: sticky;
+	width: 200px;
+	height: 50px;
+	background-color: lightseagreen;
+	top: 20px;
+	left: 300px;
+}
+
+.float-left {
+	width: 200px;
+	height: 200px;
+	background-color: lightblue;
+	margin-right: 10px;
+	float: left;
+}
+
+.float-right {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-right: 10px;
+	float: right;
+}
+
+.clear-floats {
+	background-color: lightyellow;
+	padding: 10px;
+	clear: both;
+}
+
+.box-center-horizontal {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-center-vertical {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

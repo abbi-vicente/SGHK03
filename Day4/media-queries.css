@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding: 50px;
+	background-color: beige;
+}
+
+/* all
+print
+speech
+*/
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+	section {
+		padding: 100px;
+		background-color: skyblue;
+	}
+
+	section p {
+		font-size: 30px;
+		background-color: blue;
+	}
+}
+
+/* Small Screens */
+@media screen and (min-width: 1024px) {
+	section {
+		padding: 120px;
+		background-color: pink;
+	}
+}
+
+/* 
+iPhone, Android, Mobile - <481px
+iPads and Tablets - 481px - 768px
+laptops/small screens - 769px -1024px
+desktops or large screens - 1025px - 1200px
+very large monitors - 1201px
+*/

@@ -1,0 +1,31 @@
+/* Position and order of appearance */
+div {
+	background-color: aquamarine;
+}
+
+div {
+	background-color: cadetblue;
+}
+
+/* origin */
+p {
+	border: 3px solid black;
+}
+
+/* Specificity */
+/*universal < element selector < class < id */
+#second {
+	color: yellow;
+}
+
+.par {
+	color: aliceblue !important;
+}
+
+p {
+	background-color: brown;
+}
+
+* {
+	background-color: antiquewhite;
+}
